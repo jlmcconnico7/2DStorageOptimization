@@ -1,0 +1,12 @@
+INSTRUCTIONS
+
+1. Input custom data into "boxdimensions.csv" and save
+	Column A = BOX_ID
+	Column B = WIDTH (must be integer)
+	Column C = LENGTH (must be integer)
+2. Run "2DStorageOptimization.py"
+3. When GUI appears, Select File > "boxdimensions.csv"
+4. Input Width and Length dimensions of the storage space (must be integers)
+5. Select desired packing algorithm and click "Pack Boxes and Save Results"
+6. View results in the GUI and then open "truckview.csv" to view the layout of the boxes
+	TIP: Within the CSV, select all data, then choose conditional formatting > Color Scales > select colors. This will allow easy viewing of the storage layout
